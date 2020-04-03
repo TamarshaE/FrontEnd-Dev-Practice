@@ -3,17 +3,23 @@
 <head>
 	<title>First webpage</title>
 	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
+	<div class = "container">
 	<div>
+	<div class="intro">
 	<img src=project-1.jpg>
+
 	<h1>Tamarsha R. Everhart, PMP</h1>
 	<h3>Creative, Strategic, Innovative Professional Writer, Teacher, IT Leader and all around Creative Person</h3>
-		<p>{{Being you is wonderful!}}</p>
+		<p class="quote">{{Being you is wonderful!}}</p>
+		</div>
 	</div>
 
-	<div>
-		<div>
+	<div class="about-grid">
+		<div class="i-am">
 			<h3>I am:</h3>
 			<ul>
 				<li>A Maker</li>
@@ -24,7 +30,7 @@
 			</ul>
 
 		</div>
-		<div>
+		<div class="i-like">
 			<h3>I like to:</h3>
 			<ul>
 				<li>Try recipies</li>
@@ -38,11 +44,13 @@
 	</div>
 
 	<div>
-		<h3>My Projects</h3>
+		<h3 class="projects-heading">My Projects</h3>
+		<div class="projects-grid">
 		<img src="project-2.jpg"/>
 		<img src="https://via.placeholder.com/300"/>
 		<img src="https://via.placeholder.com/300"/>
 		<img src="https://via.placeholder.com/300"/>
+	</div>
 	</div>
 
 	<div>
@@ -69,6 +77,6 @@
 			<input type="submit" valid="Send Message"/>
 		</form>
 	</div>
-
+</div>
 </body>
 </html>
